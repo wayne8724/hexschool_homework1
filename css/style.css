@@ -1,0 +1,310 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --------------cssrest-------------- */
+
+.wrap{
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 40px;
+}
+
+.header nav a .logo1{
+    display: block;
+    width: 220px;
+    height: 40px;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 319px;
+}
+
+.header nav ul div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 216px;
+}
+
+.nav_item{
+    display: block;
+    color: #3F5D45;
+    text-align: center;
+    font-family: PingFangTC-Semibold;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.header nav ul img{
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}
+
+.banner a{
+    display: block;
+    height: 496px;
+}
+
+.header {
+    margin-bottom: 60px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    font-size: 24px;
+    font-family: PingFangTC-Semibold;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 33px;
+}
+
+.menu a{
+    font-size: 24px;
+    font-family: PingFangTC-Semibold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 298px;
+    line-height: 33px;
+}
+
+.menu_btn{
+    color: #3F5D45;
+    border-right: 1px solid #EAF0ED ;
+    border-left: 1px solid #EAF0ED ;
+    border-bottom: 1px solid #EAF0ED ;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+
+.menu_btn:hover{
+    background-color: #EAF0ED;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+    flex-wrap: wrap
+}
+
+.product1{
+    display: inline-block;
+    position: relative; 
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 0;
+}
+
+.hot{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    width: 36px;
+}
+
+.hot span{
+    text-align: center;
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    font-family: PingFangTC-Light;
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10.08px;
+    padding-bottom: 9.24px;
+    text-align: center;
+    height: 87.41px;
+    writing-mode: vertical-lr;
+    letter-spacing: 4px;
+}
+
+.favorite{
+    position: absolute;
+    right: 22px;
+    top: 19px;
+}
+
+.favorite img{
+    width: 20px;
+    height: 18.35px;
+}
+
+.pic img{
+    width: 300px;
+}
+
+li{
+    font-size: 0;
+}
+
+.name{
+    display: inline-block;
+    width: 173px;
+}
+
+.price{
+    display: inline-block;
+    width: 127px;
+}
+
+.name span, .price span{
+    display: block;
+    font-size: 20px;
+    color: #3F5D45;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.name span{
+    border-left: 1px solid #EAF0ED;
+    font-family: PingFangTC-Light;
+    text-align: left;
+    padding-left: 32px;
+    padding-right: 33px;
+}
+
+.price span{
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+    font-family: PingFangTC-Semibold;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 19px;
+}
+
+.buy a{
+    display: block;
+    background-color: #EAF0ED;
+    font-size: 24px;
+    color: #3F5D45;
+    text-decoration: none;
+    text-align: center;
+    font-family: PingFangTC-Semibold;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 33px;
+}
+
+.pagination ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.pagination img{
+    display: block;
+    padding: 17px;
+    border: 1px solid #EAF0ED;
+}
+
+.pagination a{
+    display: block;
+    color: #3F5D45;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: PingFangTC-Light;
+    text-decoration: none;
+}
+
+.page_num1{
+    padding: 15px 25.539px;
+    border-right: 1px solid #EAF0ED;
+    border-top: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+}
+
+.page_num2{
+    padding: 15px 23.5px;
+    border-right: 1px solid #EAF0ED;
+    border-top: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+}
+
+.page_num3{
+    padding: 15px 24px;
+    border-top: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+}
+
+.page_num1:hover, .page_num2:hover, .page_num3:hover{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}

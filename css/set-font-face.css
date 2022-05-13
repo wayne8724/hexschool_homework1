@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'PingFangTC-Semibold';
+    src: url("../font/PingFangTC-Semibold.otf") format('truetype');
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'PingFangTC-Light';
+    src: url("../font/PingFangTC-Light.otf") format('truetype');
+    font-style: normal;
+}
+
+  * {
+    font-family: "PingFangTC-Semibold" , "PingFangTC-Light";
+  }
